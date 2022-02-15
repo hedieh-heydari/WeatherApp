@@ -27,10 +27,10 @@ form.addEventListener("submit", e => {
             <img class="city-icon" src=${icon} alt=${weather[0]["main"]}>
             <figcaption>${weather[0]["description"]}</figcaption>
             </figure>
-            <div class='city-name'>Wind speed: ${Math.round(wind.speed)} m/s</div>
-            <div class='city-name'>Humidity: ${Math.round(main.humidity)}%</div>
-            <div class='city-name'>Min temp: ${Math.round(main.temp_min)}</div>
-            <div class='city-name'>Max temp: ${Math.round(main.temp_max)}</div>
+            <div>Wind speed: ${Math.round(wind.speed)} m/s</div>
+            <div>Humidity: ${Math.round(main.humidity)}%</div>
+            <div>Min temp: ${Math.round(main.temp_min)}</div>
+            <div>Max temp: ${Math.round(main.temp_max)}</div>
             `;
             li.innerHTML=markup;
             list.appendChild(li);

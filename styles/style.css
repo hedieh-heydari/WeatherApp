@@ -8,20 +8,12 @@
 }
 
 body {
-  background-color: #0a1f44;
   color: #1e2432;
   padding: 70px;
 }
 
 ul {
   list-style-type: none;
-}
-
-.containers {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 .top-banner {
@@ -52,20 +44,11 @@ ul {
   color: currentColor;
 }
 .top-banner button {
-  cursor: pointer;
   font-size: 1rem;
   font-weight: bold;
   letter-spacing: 0.1em;
   padding: 15px 20px;
   margin-left: 15px;
-  border-radius: 5px;
-  background-color: #ff1e42;
-  color: inherit;
-  transition: background 0.3s ease-in-out;
-  border: none;
-}
-.top-banner button:hover {
-  background: #c3112d;
 }
 .top-banner .msg {
   position: absolute;
@@ -103,12 +86,6 @@ ul {
   font-weight: bold;
   margin-top: 10px;
   color: #1e2432;
-}
-.ajax-section .city-name sup {
-  padding: 0.2em 0.6em;
-  border-radius: 36px;
-  color: #fff;
-  background: #ff8c00;
 }
 .ajax-section .city-icon {
   margin-top: 10px;

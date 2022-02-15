@@ -1,10 +1,6 @@
-$bgMain: #0a1f44;
 $textLight: #fff;
 $textMed: #53627c;
 $textDark: #1e2432;
-$red: #ff1e42;
-$darkRed: #c3112d;
-$orange: #ff8c00;
 
 * {
   margin: 0;
@@ -16,20 +12,12 @@ $orange: #ff8c00;
 }
 
 body {
-  background-color: $bgMain;
   color: $textDark;
   padding: 70px;
 }
 
 ul {
   list-style-type: none;
-}
-
-.containers {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 .top-banner {
@@ -63,21 +51,11 @@ ul {
   }
 
   button {
-    cursor: pointer;
     font-size: 1rem;
     font-weight: bold;
     letter-spacing: 0.1em;
     padding: 15px 20px;
     margin-left: 15px;
-    border-radius: 5px;
-    background-color: $red;
-    color: inherit;
-    transition: background 0.3s ease-in-out;
-    border: none;
-
-    &:hover {
-      background: $darkRed;
-    }
   }
 
   .msg {
@@ -121,15 +99,6 @@ ul {
     font-weight: bold;
     margin-top: 10px;
     color: $textDark;
-  }
-
-  .city-name {
-    sup {
-      padding: 0.2em 0.6em;
-      border-radius: 36px;
-      color: $textLight;
-      background: $orange;
-    }
   }
 
   .city-icon {
