@@ -11,6 +11,8 @@ $orange: #ff8c00;
   padding: 0;
   box-sizing: border-box;
   font-weight: normal;
+  font-family: "Mochiy Pop One", sans-serif;
+  font-family: "Roboto Serif", sans-serif;
 }
 
 body {
@@ -21,7 +23,7 @@ body {
 
 ul {
   list-style-type: none;
-} 
+}
 
 .container {
   width: 100%;
@@ -88,52 +90,51 @@ ul {
 }
 
 .ajax-section {
-    margin: 70px 0 20px;
+  margin: 70px 0 20px;
 
-    .cities {
-        display:grid;
-        grid-gap: 32px 20px;
-        grid-template-columns: repeat(4, 1fr);
+  .cities {
+    display: grid;
+    grid-gap: 32px 20px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .city {
+    position: relative;
+    padding: 40px 10%;
+    border-radius: 20px;
+    background: $textLight;
+    color: $textMed;
+
+    sup {
+      font-size: 0.5em;
     }
+  }
 
-    .city {
-      position: relative;
-      padding: 40px 10%;
-      border-radius: 20px;
-      background: $textLight;
-      color: $textMed;
+  figcaption {
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
 
-      sup {
-        font-size: 0.5em;
-      }
-    }
-
-    figcaption {
-      margin-top: 10px;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-
-    .city-temp {
-      font-size: 5rem;
+  .city-temp {
+    font-size: 5rem;
     font-weight: bold;
     margin-top: 10px;
     color: $textDark;
-    }
+  }
 
-    .city-name {
-      sup {
-        padding: 0.2em 0.6em;
-        border-radius: 36px;
-        color: $textLight;
-        background: $orange;
-      }
+  .city-name {
+    sup {
+      padding: 0.2em 0.6em;
+      border-radius: 36px;
+      color: $textLight;
+      background: $orange;
     }
+  }
 
-    .city-icon {
-      margin-top: 10px;
-      width: 100px;
-      height: 100px;
-    }
-
+  .city-icon {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+  }
 }
