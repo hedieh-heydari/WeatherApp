@@ -12,10 +12,6 @@ body {
   padding: 70px;
 }
 
-ul {
-  list-style-type: none;
-}
-
 .top-banner {
   color: #fff;
 }
@@ -61,20 +57,12 @@ ul {
 .ajax-section {
   margin: 70px 0 20px;
 }
-.ajax-section .cities {
-  display: grid;
-  grid-gap: 32px 20px;
-  grid-template-columns: repeat(4, 1fr);
-}
 .ajax-section .city {
   position: relative;
   padding: 40px 10%;
   border-radius: 20px;
   background: #fff;
   color: #53627c;
-}
-.ajax-section .city sup {
-  font-size: 0.5em;
 }
 .ajax-section figcaption {
   margin-top: 10px;
